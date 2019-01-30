@@ -20,7 +20,7 @@ before(async () => {
 //the actual tests
 describe('Test site', () => {
   it('Test app', async () => {
-     await page.goto('file:/index.html');
+     await page.goto(url);
      await page.click('#lngSel > div.btn-group.bootstrap-select.fit-width > button > span.filter-option.pull-left')
      await page.click('#lngSel > div.btn-group.bootstrap-select.fit-width.open > div > ul > li:nth-child(1) > a')
      await page.click('#aboutContinueOnline')
