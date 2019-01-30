@@ -3,8 +3,11 @@ const puppeteer = require('puppeteer')
 const chai = require('chai');
 const expect = chai.expect;
 
-let browser
-let page
+let browser;
+let page;
+let loc = __dirname.split(0, -7);
+url = 'file:' + loc + 'index.html';
+console.log(url);
 
 //preps a browser window
 before(async () => {
