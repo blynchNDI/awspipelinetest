@@ -1,0 +1,128 @@
+.btn-green {
+  background-color: #1db35a;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btn-green:hover, .btn-green:focus {
+    background-color: #18964b;
+    color: #fff;
+}
+
+.panel-footer {
+    padding: 0 15px;
+    border:none;
+    text-align: left;
+    background-color: #fff;
+}
+
+.bbox {
+    position: relative; 
+    width: 100%;
+	padding: 4px 16px 8px 16px;
+    background: #1db35a; 
+    color:white
+}
+
+.bounding-bbox-color {
+    position: relative; 
+    width: 100%;
+	height: 100%;
+	padding: 4px 16px 8px 16px;
+	margin-top: 30px;
+    background: #1db35a; 
+    color:white
+}
+
+.bounding-bbox-simple {
+    position: relative; 
+    width: 100%;
+	height: 5px;
+	padding: 4px 16px 8px 16px;
+	margin-top: 30px;
+    background: #1db35a; 
+    color:white
+}
+
+.bounding-bbox-image {
+    position: relative; 
+    width: 100%;
+	height: 100%;
+	padding: 4px 16px 8px 16px;
+    color:black
+}
+
+.top-line {
+    position: relative; 
+    width: 100%;
+	height: 5px;
+    background: #1db35a; 
+    color:white
+}
+
+.sv_qstn .sv_q_rating_min_text {
+  color: #d9534f;
+}
+
+.sv_qstn .sv_q_rating_max_text {
+  color: #1db35a;
+}
+
+.sv_qstn .sv_q_rating_item_text {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  margin-right: -1px;
+}
+
+.sv_qstn label:first-child .sv_q_rating_item_text {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sv_qstn label:last-child .sv_q_rating_item_text {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sv_qstn .sv_q_rating_item_text:hover {
+  background: #ccc;
+}
+
+.sv_qstn label.active .sv_q_rating_item_text {
+  background: #ccc;
+  color: white;
+}
+
+div.well{
+  height: 250px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed #000;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.bottom-spacing {
+    margin-bottom: 2px;
+}
+
+.Absolute-Center {
+  margin: auto;
+  width: 80%; 
+  height: 90%;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+  min-width: 400px;
+  max-width: 800px;
+}
+
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#d8ffe7!important}
+
+.w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{color:#000!important;background-color:#1db35a!important}
